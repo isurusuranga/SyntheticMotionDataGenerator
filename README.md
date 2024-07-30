@@ -139,6 +139,7 @@ python main.py --patient_data_dir *** --raw_real_kv_dir ***
 
 Additional note: To introduce more diversity into the synthetic motion instances and substantially deviate from the original 4D-CT data, we incorporated rigid motions by applying random translations/shifts along the LR, AP, and SI directions of the deformed 3D-CT image volumes. This is also advantageous during testing on real in-treatment kV images, as it reflects the variations in onboard patient setup across different scan series or fractions, which can potentially lead to shifts in the in-treatment kV images.
 
+## Citing
 
 If you find this code is useful for your research, please consider citing the following paper:
 
