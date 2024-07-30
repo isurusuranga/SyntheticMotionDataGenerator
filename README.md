@@ -138,3 +138,15 @@ python main.py --patient_data_dir *** --raw_real_kv_dir ***
 
 
 Additional note: To introduce more diversity into the synthetic motion instances and substantially deviate from the original 4D-CT data, we incorporated rigid motions by applying random translations/shifts along the LR, AP, and SI directions of the deformed 3D-CT image volumes. This is also advantageous during testing on real in-treatment kV images, as it reflects the variations in onboard patient setup across different scan series or fractions, which can potentially lead to shifts in the in-treatment kV images.
+
+
+If you find this code useful for your research, please consider citing the following paper:
+
+```
+@article{wijesinghe2024deep,
+  title={Deep-Motion-Net: GNN-based volumetric organ shape reconstruction from single-view 2D projections},
+  author={Wijesinghe, Isuru and Nix, Michael and Zakeri, Arezoo and Hokmabadi, Alireza and Al-Qaisieh, Bashar and Gooya, Ali and Taylor, Zeike A},
+  journal={arXiv preprint arXiv:2407.06692},
+  year={2024}
+}
+```
